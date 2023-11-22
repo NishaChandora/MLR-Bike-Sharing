@@ -1,52 +1,20 @@
-# Project Name
-> Outline a brief description of your project.
+# Multiple Linear Regression – Bike Sharing Assignment
+>Demonstration to build a multiple linear regression model
 
+BoomBikes is a US-based company which provides bike-sharing services. The user borrows the bike on a short-term basis for a price or free. The user can take the bike from a computer-controlled "dock" where he enters the payment information, and the system unlocks the bike. This bike can then be returned to another dock belonging to the same system. 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+Due to Corona pandemic, BoomBikes suffered considerable dips in its revenue. As such the company wants to come up with a business plan to boost its revenue post-lockdown period.
 
-<!-- You can include any other section that is pertinent to your problem -->
+The company aims to understand the demand for shared bikes in American market so as to stand out from other service providers and make huge profits.
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+Essentially, the company wants —
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+-	To identify the factors that are significant in predicting the demand for shared bikes.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+-	The accuracy of the model with which such factors can predict the bike demands.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The company has contracted a consulting firm which has gathered a large dataset on daily bike demands across the American market based on some factors. 
+The data contains information on certain parameters from meteorological surveys (ex – seasons, weathers conditions, temperature, humidity etc. on day of usage of shared bikes) and people's styles (ex. – usage of bike on holiday, working day, weekday etc.). The dataset also contains number of shared-bike users (registered, casual and cnt – total of reg. and casual users). 
 
+We will be using this dataset to build a Multiple Linear Regression Model to determine the significant factors for shared-bikes demand (i.e., ‘cnt’ column in the dataset). We will also look into the accuracy of the model as it is one of the important factors for company’s business plan.
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
